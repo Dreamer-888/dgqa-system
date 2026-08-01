@@ -1,0 +1,76 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Codex / agent local metadata
+.agents/
+.codex/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / runtime files
+*.log
+logs/
+tmp/
+temp/
+
+# Build / packaging outputs
+build/
+dist/
+*.egg-info/
+
+# Local model weights
+models/
+
+# Runtime caches
+data/cache/
+
+# Original large standard PDFs
+data/source/*.pdf
+
+# Generated retrieval indexes
+data/text/faiss_index.bin
+data/text/metadata.json
+
+# Generated test reports
+reports/query_test_report_*.md
+reports/query_test_report_*.json
+
+# Office temporary files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# Large local exports / archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
